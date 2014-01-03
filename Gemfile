@@ -3,9 +3,11 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.1'
+gem 'bootstrap-sass', '2.1'
 gem 'pg'
 
 group :development, :test do
+  gem 'rspec-core'
   gem 'rspec-rails', '2.13.1'
   gem 'guard-rspec', '2.5.0'
   gem 'spork-rails', '4.0.0'
